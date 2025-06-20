@@ -165,6 +165,24 @@
             >;
         };
 
+        gaming {
+            bindings = <
+       &kp TILDE       &kp Q  &kp W         &kp E      &kp R        &trans  &trans  &trans  &trans  &trans
+       &kp TAB         &kp A  &kp S         &kp D      &kp F        &trans  &trans  &trans  &trans  &trans
+&mo 5  &kp LEFT_SHIFT  &kp Z  &kp X         &kp C      &kp V        &trans  &trans  &trans  &trans  &trans  &trans
+                              &kp LEFT_ALT  &kp LCTRL  &kp SPACE    &trans  &trans  &trans
+            >;
+        };
+
+        gaming_num {
+            bindings = <
+        &kp N7  &kp N7  &kp N8  &kp N9  &kp N0    &trans  &trans  &trans  &trans  &trans
+        &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
     };
