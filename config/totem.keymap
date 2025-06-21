@@ -39,6 +39,11 @@
             key-positions = <0 1>;
             bindings = <&kp ESC>;
         };
+
+        toggle-gaming {
+            bindings = <&tog 4>;
+            key-positions = <3 4>;
+        };
     };
 
     macros {
