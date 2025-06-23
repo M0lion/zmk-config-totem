@@ -111,10 +111,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp ESC   &bt BT_CLR  &kp UP    &kp EQUAL  &kp LBRC    &kp RBRC  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_PLUS
-        &kp LGUI  &kp LEFT    &kp DOWN  &kp RIGHT  &kp LBKT    &kp RBKT  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS
-&trans  &kp DEL   &kp PG_UP   &kp CAPS  &kp PG_DN  &kp LPAR    &kp RPAR  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_MULTIPLY  &trans
-                              &trans    &trans     &trans      &mo 3     &kp KP_N0  &trans
+        &kp ESC   &kp HOME   &kp UP    &kp END    &kp LBRC    &kp RBRC  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_PLUS
+        &kp LGUI  &kp LEFT   &kp DOWN  &kp RIGHT  &kp LBKT    &kp RBKT  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS
+&trans  &kp DEL   &kp PG_UP  &kp CAPS  &kp PG_DN  &kp LPAR    &kp RPAR  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_MULTIPLY  &trans
+                             &trans    &trans     &trans      &mo 3     &kp KP_N0  &trans
             >;
         };
 
@@ -138,7 +138,7 @@
 
             bindings = <
         &kp EXCL  &kp DOUBLE_QUOTES  &kp HASH   &kp DLLR  &kp PRCNT    &kp AMPERSAND  &kp QUESTION      &kp CARET      &kp TILDE   &kp PIPE
-        &none     &kp SINGLE_QUOTE   &kp RA(S)  &trans    &trans       &none          &kp SLASH         &kp BACKSLASH  &none       &none
+        &none     &kp SINGLE_QUOTE   &kp RA(S)  &trans    &trans       &kp EQUAL      &kp SLASH         &kp BACKSLASH  &none       &none
 &trans  &none     &kp GRAVE          &trans     &trans    &trans       &none          &kp C_PLAY_PAUSE  &kp C_PREV     &kp C_NEXT  &none     &trans
                                      &trans     &gif      &mo 3        &trans         &none             &trans
             >;
