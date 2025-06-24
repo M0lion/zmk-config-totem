@@ -111,10 +111,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp ESC   &kp HOME   &kp UP    &kp END    &kp LBRC    &kp NB_COLON      &kp KP_N7             &kp KP_N8        &kp KP_N9           &kp KP_PLUS
-        &kp LGUI  &kp LEFT   &kp DOWN  &kp RIGHT  &kp LBKT    &kp NB_SEMICOLON  &mt LEFT_SHIFT KP_N4  &mt LCTRL KP_N5  &mt LEFT_ALT KP_N6  &kp KP_MINUS
-&trans  &kp DEL   &kp PG_UP  &kp CAPS  &kp PG_DN  &kp LPAR    &kp NB_SECT       &kp KP_N1             &kp KP_N2        &kp KP_N3           &kp KP_MULTIPLY  &kp KP_NUMLOCK
-                             &trans    &trans     &trans      &mo 3             &kp KP_N0             &trans
+        &kp ESC   &kp HOME   &kp UP                   &kp END    &kp LBRC    &kp NB_COLON      &kp KP_N7             &kp KP_N8        &kp KP_N9           &kp KP_PLUS
+        &kp LGUI  &kp LEFT   &kp DOWN                 &kp RIGHT  &kp LBKT    &kp NB_SEMICOLON  &mt LEFT_SHIFT KP_N4  &mt LCTRL KP_N5  &mt LEFT_ALT KP_N6  &kp KP_MINUS
+&trans  &kp DEL   &kp PG_UP  &mt LEFT_SHIFT CAPSLOCK  &kp PG_DN  &kp LPAR    &kp NB_SECT       &kp KP_N1             &kp KP_N2        &kp KP_N3           &kp KP_MULTIPLY  &kp KP_NUMLOCK
+                             &trans                   &trans     &trans      &mo 3             &kp KP_N0             &trans
             >;
         };
 
